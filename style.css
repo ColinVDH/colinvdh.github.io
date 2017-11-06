@@ -14,7 +14,9 @@
 	margin: auto;
 	max-width: 400px;
 	max-height: 600px;
-	background-color: rgb(204, 204, 0);
+	padding: 20px;
+	border-radius: 6px;
+	background-color: rgb(227, 228, 229);
 }
 
 .item {
@@ -23,5 +25,7 @@
 
 
 body {
+	padding: 40px;
 	height: 100vh;
+	display: flex;
 }
