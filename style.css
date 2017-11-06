@@ -12,3 +12,7 @@
 	flex-direction: column;
 	margin: auto;
 }
+
+.item {
+	align-self: center;
+}
