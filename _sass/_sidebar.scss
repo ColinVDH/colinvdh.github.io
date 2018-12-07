@@ -75,6 +75,9 @@
   width: 36px;
   height: 36px;
 
+  transition: transform 0.2s;
+  &:hover { transform: scale(0.98); }
+
   @include breakpoint($large) {
     display: block;
     width: auto;
@@ -89,6 +92,7 @@
       padding: 5px;
       border: 1px solid $border-color;
     }
+    
   }
 }
 
