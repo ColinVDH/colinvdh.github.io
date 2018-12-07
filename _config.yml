@@ -120,6 +120,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - images
 exclude:
   - _posts #begin NEW CV
   - _talks
