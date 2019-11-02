@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155c7586-b55f-4feb-93ef-b81244c6ca94" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_pages/publications.html" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" afterPath="$PROJECT_DIR$/_data/navigation.yml" />
-      <change beforePath="$PROJECT_DIR$/_includes/author-profile.html" afterPath="$PROJECT_DIR$/_includes/author-profile.html" />
-      <change beforePath="$PROJECT_DIR$/_pages/cv.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_pages/publications.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_pages/teaching.html" afterPath="$PROJECT_DIR$/_pages/teaching.html" />
-      <change beforePath="$PROJECT_DIR$/_projects/project-1.html" afterPath="$PROJECT_DIR$/_projects/project-1.html" />
-      <change beforePath="$PROJECT_DIR$/_publications/2009-10-01-paper-title-number-1.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_publications/2010-10-01-paper-title-number-2.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_publications/2015-10-01-paper-title-number-3.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cv.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/CV.pdf" afterPath="$PROJECT_DIR$/files/CV.pdf" />
-      <change beforePath="$PROJECT_DIR$/files/paper1.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/paper2.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/paper3.pdf" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="publications.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="publications.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_pages/publications.html">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -54,6 +38,16 @@
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile.lock" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4186">
+              <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,6 +149,7 @@
         <option value="$PROJECT_DIR$/_projects/project-1.html" />
         <option value="$PROJECT_DIR$/_data/navigation.yml" />
         <option value="$PROJECT_DIR$/_pages/publications.html" />
+        <option value="$PROJECT_DIR$/Gemfile.lock" />
       </list>
     </option>
   </component>
@@ -294,12 +289,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572652221181</updated>
-      <workItem from="1572652232473" duration="9681000" />
+      <workItem from="1572652232473" duration="9825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9681000" />
+    <option name="totallyTimeSpent" value="9825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -511,7 +506,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1572665129144" expanded="false" signature="4143:4153" ph="..." />
+            <marker date="1572665156051" expanded="false" signature="4143:4153" ph="..." />
           </folding>
         </state>
       </provider>
@@ -646,6 +641,14 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4186">
+          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
