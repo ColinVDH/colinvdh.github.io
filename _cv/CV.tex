@@ -1,0 +1,107 @@
+% build with: tectonic _cv/CV.tex --outdir files
+\documentclass[letterpaper,10pt]{article}
+\usepackage[left=0.75in,right=0.75in,top=0.45in,bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage[hidelinks,pdftitle={Colin Vandenhof - CV}]{hyperref}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{label=-, leftmargin=2.2em, topsep=2pt, itemsep=0pt, parsep=0pt}
+
+\newenvironment{rsection}[1]{%
+  \Needspace{5\baselineskip}\vspace{6pt}{\bfseries\MakeUppercase{#1}}\par\vspace{2pt}\hrule\vspace{4pt}
+  \begin{list}{}{\setlength{\leftmargin}{1.5em}\setlength{\itemsep}{5pt}\setlength{\parsep}{0pt}\setlength{\topsep}{0pt}}
+}{\end{list}}
+
+\begin{document}
+
+\begin{center}
+  {\huge\bfseries Colin Vandenhof}\\[4pt]
+  \href{https://www.colinvdh.com}{colinvdh.com} $\diamond$ \href{https://www.github.com/ColinVDH}{github.com/ColinVDH}
+\end{center}
+
+\begin{rsection}{Work Experience}
+\item[] {\bfseries Dash Social}, Halifax, Nova Scotia \hfill {\itshape May 2022 - present}\\
+  {\itshape Senior Research Scientist} \hfill May 2026 - present\\
+  {\itshape Research Scientist} \hfill May 2022 - May 2026
+
+\item[] {\bfseries Spiri Robotics}, Halifax, Nova Scotia \hfill {\itshape February 2021 - December 2021}\\
+  {\itshape Software Engineer}\\
+  Development of systems for data analysis and machine learning. Implemented Django REST API for managing datasets, training scripts, and models. Integrated Slurm for job scheduling. Created dashboards for visualizing aggregated flight data. Server provisioning with Ansible, and container orchestration with Docker Swarm.
+
+\item[] {\bfseries University of Waterloo}, Waterloo, Ontario \hfill {\itshape January 2018 - December 2019}\\
+  {\itshape Teaching Assistant}
+  \begin{itemize}
+    \item Fall 2019, Winter 2019, Spring 2018 - CS 486/686: Introduction to Artificial Intelligence
+    \item Winter 2019 - CS 480/680: Introduction to Machine Learning
+    \item Winter 2018 - CS 136: Elementary Algorithm Design and Data Abstraction
+  \end{itemize}
+  Responsible for holding office hours, answering questions on course forums, proctoring, and marking.
+
+\item[] {\bfseries Element AI}, Toronto, Ontario \hfill {\itshape May 2019 - August 2019}\\
+  {\itshape Applied Research Intern}\\
+  Conducted research into uncertainty quantification, and the use of utility models for decision-making in production deep learning systems. Model development and experimentation in Python using PyTorch. Creation of interactive data visualization tools in JavaScript using D3.js.
+
+\item[] {\bfseries Blockcrushr Labs}, Halifax, Nova Scotia \hfill {\itshape September 2017 - December 2017}\\
+  {\itshape Software Developer}\\
+  Development of universal web application for charitable giving backed by the Ethereum blockchain. Front-end web development in React. Implemented user authentication using JWT. Integration with Node.js back-end.
+
+\item[] {\bfseries Atlantic Lottery Corporation}, Halifax, Nova Scotia \hfill {\itshape June 2017 - August 2017}\\
+  {\itshape Summer Student - Software Development}\\
+  Development of Amazon Alexa application with Node.js and deployment with AWS. Development of web scraper in Javascript and deployment of lottery results RESTful API with AWS. Integration of API with Ruby on Rails web application. Front-end web development in React.
+
+\item[] {\bfseries Dalhousie University}, Halifax, Nova Scotia \hfill {\itshape May 2017 - August 2017}\\
+  {\itshape Teaching Assistant}
+  \begin{itemize}
+    \item Spring 2017 - CSCI 3120: Operating Systems
+  \end{itemize}
+  Responsible for editing assignments, leading in-class activities, proctoring, and marking.
+\end{rsection}
+
+\begin{rsection}{Education}
+\item[] {\bfseries University of Waterloo} \hfill {\itshape January 2018 - 2020}\\
+  Master of Mathematics (Computer Science) \hfill GPA: 4.00 / 4.00
+  \begin{itemize}
+    \item Canada Graduate Scholarship - Doctoral (2020, declined)
+    \item Alexander Graham Bell Canada Graduate Scholarship (\$17500, 2019-2020)
+    \item President's Graduate Scholarship (\$5000, 2019-2020)
+    \item David R. Cheriton Graduate Scholarship (\$20000, 2018-2019)
+    \item Mathematics Domestic Graduate Student Award (\$4000, 2018-2019)
+  \end{itemize}
+
+\item[] {\bfseries Dalhousie University} \hfill {\itshape September 2016 - April 2017}\\
+  Special Undergraduate of Science (Computer Science) \hfill GPA: 4.00 / 4.00
+  \begin{itemize}
+    \item MacKenzie Scholarship (\$2000, declined)
+  \end{itemize}
+
+\item[] {\bfseries McMaster University} \hfill {\itshape September 2012 - April 2016}\\
+  Bachelor of Health Sciences (Honours) \hfill GPA: 3.94 / 4.00
+  \begin{itemize}
+    \item Provost's Honour Roll Medal (2016)
+    \item President's Award (\$2500, 2012)
+  \end{itemize}
+\end{rsection}
+
+\begin{rsection}{Publications}
+\item[] {\bfseries A Hybrid Approach to Identifying Unknown Unknowns of Predictive Models.} Vandenhof, C. In Proceedings of the 7th AAAI Conference on Human Computation and Crowdsourcing.
+
+\item[] {\bfseries Contradict the Machine: a Hybrid Approach to Identifying Unknown Unknowns.} Vandenhof, C. \& Law, E. In Proceedings of the 18th International Conference on Autonomous Agents and Multiagent Systems.
+\end{rsection}
+
+\begin{rsection}{Technical Skills}
+\item[] {\bfseries Programming Languages}\\
+  \begin{tabular}{@{}p{1.6in}l}
+    Proficient: & Python, JavaScript, Bash\\
+    Previous experience: & C/C++, Java, R, MATLAB
+  \end{tabular}
+
+\item[] {\bfseries Software and Frameworks}\\
+  \begin{tabular}{@{}p{1.6in}l}
+    Version control: & Git, SVN\\
+    Web technologies: & React, HTML/CSS, Flask, Node.js, PostgreSQL
+  \end{tabular}
+\end{rsection}
+
+\end{document}
