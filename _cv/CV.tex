@@ -7,7 +7,9 @@
 
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
-\setlist[itemize]{label=-, leftmargin=2.2em, topsep=2pt, itemsep=0pt, parsep=0pt}
+\setlist[itemize]{label=-, leftmargin=2.2em, topsep=2pt, itemsep=0pt, parsep=0pt, beginpenalty=10000, midpenalty=10000}
+\clubpenalty=10000
+\widowpenalty=10000
 
 \newenvironment{rsection}[1]{%
   \Needspace{5\baselineskip}\vspace{6pt}{\bfseries\MakeUppercase{#1}}\par\vspace{2pt}\hrule\vspace{4pt}
@@ -24,7 +26,8 @@
 \begin{rsection}{Work Experience}
 \item[] {\bfseries Dash Social}, Halifax, Nova Scotia \hfill {\itshape May 2022 - present}\\
   {\itshape Senior Research Scientist} \hfill May 2026 - present\\
-  {\itshape Research Scientist} \hfill May 2022 - May 2026
+  {\itshape Research Scientist} \hfill May 2022 - May 2026\\
+  Research and development of AI features for a social media marketing platform, including a conversational agent for social analytics, brand-aware image and video generation, creator demographic prediction, and tools for surfacing trends and topics in social listening. Built evaluation pipelines to benchmark models for each.
 
 \item[] {\bfseries Spiri Robotics}, Halifax, Nova Scotia \hfill {\itshape February 2021 - December 2021}\\
   {\itshape Software Engineer}\\
@@ -63,7 +66,7 @@
 \item[] {\bfseries University of Waterloo} \hfill {\itshape January 2018 - May 2020}\\
   Master of Mathematics (Computer Science) \hfill GPA: 4.00 / 4.00
   \begin{itemize}
-    \item Canada Graduate Scholarship - Doctoral (2020, declined)
+    \item Canada Graduate Scholarship - Doctoral (\$105000, 2020, declined)
     \item Alexander Graham Bell Canada Graduate Scholarship (\$17500, 2019-2020)
     \item President's Graduate Scholarship (\$5000, 2019-2020)
     \item David R. Cheriton Graduate Scholarship (\$20000, 2018-2019)
